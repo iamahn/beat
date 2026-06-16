@@ -25,7 +25,7 @@ const voiceUrls = {
     9: 'https://iamahn.github.io/beat/counting_voice/(female)09.wav'
 };
 */
-
+/*
 const voiceUrls = {
     1: 'https://iamahn.github.io/beat/counting_voice/(female)count(1).wav', 
     2: 'https://iamahn.github.io/beat/counting_voice/(female)count(2).wav',
@@ -37,8 +37,18 @@ const voiceUrls = {
     8: 'https://iamahn.github.io/beat/counting_voice/(female)count(8).wav',
     9: 'https://iamahn.github.io/beat/counting_voice/(female)count(9).wav'
 };
-
-
+*/
+const voiceUrls = {
+    1: 'https://iamahn.github.io/beat/counting_voice/(male)count(1).wav', 
+    2: 'https://iamahn.github.io/beat/counting_voice/(male)count(2).wav',
+    3: 'https://iamahn.github.io/beat/counting_voice/(male)count(3).wav',
+    4: 'https://iamahn.github.io/beat/counting_voice/(male)count(4).wav',
+    5: 'https://iamahn.github.io/beat/counting_voice/(male)count(5).wav',
+    6: 'https://iamahn.github.io/beat/counting_voice/(male)count(6).wav',
+    7: 'https://iamahn.github.io/beat/counting_voice/(male)count(7).wav',
+    8: 'https://iamahn.github.io/beat/counting_voice/(male)count(8).wav',
+    9: 'https://iamahn.github.io/beat/counting_voice/(male)count(9).wav'
+};
 let voiceBuffers = {};
 
 // 페이지 로드 시 wav 파일을 Web Audio Context용 버퍼로 미리 변환
