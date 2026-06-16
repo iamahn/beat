@@ -1,6 +1,9 @@
 // =====================================
 // AUDIO CONTEXT CONFIG
 // =====================================
+
+
+
 const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 const masterGain = audioCtx.createGain();
 masterGain.gain.value = 0.5;
@@ -10,15 +13,15 @@ masterGain.connect(audioCtx.destination);
 // COUNTING VOICE
 // =====================================
 const voiceUrls = {
-    1: 'counting_voice/(female)01.wav', 
-    2: 'counting_voice/(female)02.wav',
-    3: 'counting_voice/(female)03.wav',
-    4: 'counting_voice/(female)04.wav',
-    5: 'counting_voice/(female)05.wav',
-    6: 'counting_voice/(female)06.wav',
-    7: 'counting_voice/(female)07.wav',
-    8: 'counting_voice/(female)08.wav',
-    9: 'counting_voice/(female)09.wav'
+    1: 'https://iamahn.github.io/beat/counting_voice/(female)01.wav', 
+    2: 'https://iamahn.github.io/beat/counting_voice/(female)02.wav',
+    3: 'https://iamahn.github.io/beat/counting_voice/(female)03.wav',
+    4: 'https://iamahn.github.io/beat/counting_voice/(female)04.wav',
+    5: 'https://iamahn.github.io/beat/counting_voice/(female)05.wav',
+    6: 'https://iamahn.github.io/beat/counting_voice/(female)06.wav',
+    7: 'https://iamahn.github.io/beat/counting_voice/(female)07.wav',
+    8: 'https://iamahn.github.io/beat/counting_voice/(female)08.wav',
+    9: 'https://iamahn.github.io/beat/counting_voice/(female)09.wav'
 };
 let voiceBuffers = {};
 
