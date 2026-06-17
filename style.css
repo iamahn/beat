@@ -28,6 +28,7 @@ body {
     color: var(--text);
     font-family: "Segoe UI", sans-serif;
     padding: 20px;
+    zoom:0.7;
 }
 
 .container {
